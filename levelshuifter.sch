@@ -20,7 +20,7 @@ P 5350 6750
 F 0 "U5" H 5350 6992 50  0000 C CNN
 F 1 "L7805" H 5350 6901 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:TO-263-3_TabPin2" H 5375 6600 50  0001 L CIN
-F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 5350 6700 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/L7805ABD2T-TR-STMicroelectronics-datasheet-11003276.pdf" H 5350 6700 50  0001 C CNN
 	1    5350 6750
 	1    0    0    -1  
 $EndComp
@@ -31,7 +31,7 @@ P 2950 6750
 F 0 "U1" H 2950 6992 50  0000 C CNN
 F 1 "LM1117-3.3" H 2950 6901 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-223" H 2950 6750 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm1117.pdf" H 2950 6750 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/LM1117MP-3.3-Texas-Instruments-datasheet-2078.pdf" H 2950 6750 50  0001 C CNN
 	1    2950 6750
 	1    0    0    -1  
 $EndComp
@@ -42,7 +42,7 @@ P 4950 7150
 F 0 "C9" H 5065 7196 50  0000 L CNN
 F 1 "0.33uF" H 5065 7105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 4988 7000 50  0001 C CNN
-F 3 "~" H 4950 7150 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/08053C334KAZ2A-AVX-datasheet-65931687.pdf" H 4950 7150 50  0001 C CNN
 	1    4950 7150
 	1    0    0    -1  
 $EndComp
@@ -51,9 +51,9 @@ L Device:C C10
 U 1 1 5F6084D3
 P 5750 7150
 F 0 "C10" H 5500 7200 50  0000 L CNN
-F 1 "1uF" H 5500 7100 50  0000 L CNN
+F 1 "4.7uF" H 5500 7100 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 5788 7000 50  0001 C CNN
-F 3 "~" H 5750 7150 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/C0805C475K8PACTU-Kemet-datasheet-5314969.pdf" H 5750 7150 50  0001 C CNN
 	1    5750 7150
 	1    0    0    -1  
 $EndComp
@@ -64,7 +64,7 @@ P 3350 7050
 F 0 "C6" H 3100 7100 50  0000 L CNN
 F 1 "4.7uF" H 3050 7000 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 3388 6900 50  0001 C CNN
-F 3 "~" H 3350 7050 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/C0805C475K8PACTU-Kemet-datasheet-5314969.pdf" H 3350 7050 50  0001 C CNN
 	1    3350 7050
 	1    0    0    -1  
 $EndComp
@@ -75,7 +75,7 @@ P 4600 7150
 F 0 "C8" H 4300 7200 50  0000 L CNN
 F 1 "470uF" H 4250 7050 50  0000 L CNN
 F 2 "Capacitor_THT:C_Radial_D10.0mm_H20.0mm_P5.00mm" H 4638 7000 50  0001 C CNN
-F 3 "~" H 4600 7150 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/EEU-FC1V471-Panasonic-datasheet-5313828.pdf" H 4600 7150 50  0001 C CNN
 	1    4600 7150
 	1    0    0    -1  
 $EndComp
@@ -86,7 +86,7 @@ P 6100 7150
 F 0 "C11" H 6218 7196 50  0000 L CNN
 F 1 "47uF" H 6218 7105 50  0000 L CNN
 F 2 "Capacitor_THT:C_Radial_D6.3mm_H11.0mm_P2.50mm" H 6138 7000 50  0001 C CNN
-F 3 "~" H 6100 7150 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/UVR1J470MED-Nichicon-datasheet-8362721.pdf" H 6100 7150 50  0001 C CNN
 	1    6100 7150
 	1    0    0    -1  
 $EndComp
@@ -97,18 +97,18 @@ P 3700 7050
 F 0 "C7" H 3818 7096 50  0000 L CNN
 F 1 "10uF" H 3818 7005 50  0000 L CNN
 F 2 "Capacitor_THT:C_Radial_D5.0mm_H7.0mm_P2.00mm" H 3738 6900 50  0001 C CNN
-F 3 "~" H 3700 7050 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/ECE-A1HKA100-Panasonic-datasheet-13266333.pdf" H 3700 7050 50  0001 C CNN
 	1    3700 7050
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74LVC8T245PW:74LVC8T245PW U3
+L levelshuifter-rescue:74LVC8T245PW-74LVC8T245PW U3
 U 1 1 5F61CD77
 P 3950 2300
 F 0 "U3" H 3500 4050 50  0000 C CNN
 F 1 "74LVC8T245PW" H 4000 4050 50  0000 C CNN
 F 2 "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" H 3600 4050 50  0001 C CNN
-F 3 "" H 3600 4050 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/74LVC8T245PW%2C118-Nexperia-datasheet-11898247.pdf" H 3600 4050 50  0001 C CNN
 	1    3950 2300
 	1    0    0    -1  
 $EndComp
@@ -154,7 +154,7 @@ P 2200 7050
 F 0 "C1" H 2000 7150 50  0000 L CNN
 F 1 "10uF" H 1950 6900 50  0000 L CNN
 F 2 "Capacitor_THT:C_Radial_D5.0mm_H7.0mm_P2.00mm" H 2238 6900 50  0001 C CNN
-F 3 "~" H 2200 7050 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/ECE-A1HKA100-Panasonic-datasheet-13266333.pdf" H 2200 7050 50  0001 C CNN
 	1    2200 7050
 	1    0    0    -1  
 $EndComp
@@ -165,7 +165,7 @@ P 2550 7050
 F 0 "C2" H 2665 7096 50  0000 L CNN
 F 1 "4.7uF" H 2665 7005 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 2588 6900 50  0001 C CNN
-F 3 "~" H 2550 7050 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/C0805C475K8PACTU-Kemet-datasheet-5314969.pdf" H 2550 7050 50  0001 C CNN
 	1    2550 7050
 	1    0    0    -1  
 $EndComp
@@ -441,13 +441,13 @@ A1_7
 Text Label 3250 1650 0    50   ~ 0
 A1_8
 $Comp
-L 74LVC8T245PW:74LVC8T245PW U4
+L levelshuifter-rescue:74LVC8T245PW-74LVC8T245PW U4
 U 1 1 5F602954
 P 3950 4200
 F 0 "U4" H 4042 6115 50  0000 C CNN
 F 1 "74LVC8T245PW" H 4042 6024 50  0000 C CNN
 F 2 "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" H 3600 5950 50  0001 C CNN
-F 3 "" H 3600 5950 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/74LVC8T245PW%2C118-Nexperia-datasheet-11898247.pdf" H 3600 5950 50  0001 C CNN
 	1    3950 4200
 	1    0    0    -1  
 $EndComp
@@ -719,7 +719,7 @@ P 2800 3200
 F 0 "C5" H 2915 3246 50  0000 L CNN
 F 1 "4.7uF" H 2915 3155 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 2838 3050 50  0001 C CNN
-F 3 "~" H 2800 3200 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/C0805C475K8PACTU-Kemet-datasheet-5314969.pdf" H 2800 3200 50  0001 C CNN
 	1    2800 3200
 	1    0    0    -1  
 $EndComp
@@ -730,7 +730,7 @@ P 2750 5050
 F 0 "C3" H 2865 5096 50  0000 L CNN
 F 1 "4.7uF" H 2865 5005 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 2788 4900 50  0001 C CNN
-F 3 "~" H 2750 5050 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/C0805C475K8PACTU-Kemet-datasheet-5314969.pdf" H 2750 5050 50  0001 C CNN
 	1    2750 5050
 	1    0    0    -1  
 $EndComp
@@ -785,7 +785,7 @@ P 5300 1350
 F 0 "J3" H 5350 725 50  0000 C CNN
 F 1 "Conn_02x08_Odd_Even" H 5050 800 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 5300 1350 50  0001 C CNN
-F 3 "~" H 5300 1350 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=103308&DocType=Customer+Drawing&DocLang=English" H 5300 1350 50  0001 C CNN
 	1    5300 1350
 	-1   0    0    1   
 $EndComp
@@ -902,7 +902,7 @@ P 2800 1350
 F 0 "C4" H 2915 1396 50  0000 L CNN
 F 1 "4.7uF" H 2915 1305 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 2838 1200 50  0001 C CNN
-F 3 "~" H 2800 1350 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/C0805C475K8PACTU-Kemet-datasheet-5314969.pdf" H 2800 1350 50  0001 C CNN
 	1    2800 1350
 	1    0    0    -1  
 $EndComp
@@ -931,18 +931,18 @@ P 5800 4150
 F 0 "J4" H 5850 3650 50  0000 C CNN
 F 1 "Conn_02x08_Odd_Even" H 5750 3450 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 5800 4150 50  0001 C CNN
-F 3 "~" H 5800 4150 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=103308&DocType=Customer+Drawing&DocLang=English" H 5800 4150 50  0001 C CNN
 	1    5800 4150
 	-1   0    0    1   
 $EndComp
 $Comp
-L 74LVC8T245PW:74LVC8T245PW U7
+L levelshuifter-rescue:74LVC8T245PW-74LVC8T245PW U7
 U 1 1 5F9391D7
 P 8800 4550
 F 0 "U7" H 8892 6465 50  0000 C CNN
 F 1 "74LVC8T245PW" H 8892 6374 50  0000 C CNN
 F 2 "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" H 8450 6300 50  0001 C CNN
-F 3 "" H 8450 6300 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/74LVC8T245PW%2C118-Nexperia-datasheet-11898247.pdf" H 8450 6300 50  0001 C CNN
 	1    8800 4550
 	1    0    0    -1  
 $EndComp
@@ -1062,7 +1062,7 @@ P 7650 3500
 F 0 "C13" H 7765 3546 50  0000 L CNN
 F 1 "4.7uF" H 7765 3455 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 7688 3350 50  0001 C CNN
-F 3 "~" H 7650 3500 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/C0805C475K8PACTU-Kemet-datasheet-5314969.pdf" H 7650 3500 50  0001 C CNN
 	1    7650 3500
 	1    0    0    -1  
 $EndComp
@@ -1201,13 +1201,13 @@ Wire Wire Line
 Wire Wire Line
 	5300 3950 5500 3950
 $Comp
-L 74LVC8T245PW:74LVC8T245PW U2
+L levelshuifter-rescue:74LVC8T245PW-74LVC8T245PW U2
 U 1 1 5F61A02E
 P 3900 6100
 F 0 "U2" H 3992 8015 50  0000 C CNN
 F 1 "74LVC8T245PW" H 3992 7924 50  0000 C CNN
 F 2 "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" H 3550 7850 50  0001 C CNN
-F 3 "" H 3550 7850 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/74LVC8T245PW%2C118-Nexperia-datasheet-11898247.pdf" H 3550 7850 50  0001 C CNN
 	1    3900 6100
 	1    0    0    -1  
 $EndComp
@@ -1230,13 +1230,13 @@ Wire Wire Line
 Wire Wire Line
 	4400 5450 6950 5450
 $Comp
-L 74LVC8T245PW:74LVC8T245PW U6
+L levelshuifter-rescue:74LVC8T245PW-74LVC8T245PW U6
 U 1 1 5FB327BD
 P 8750 2500
 F 0 "U6" H 8842 4415 50  0000 C CNN
 F 1 "74LVC8T245PW" H 8842 4324 50  0000 C CNN
 F 2 "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" H 8400 4250 50  0001 C CNN
-F 3 "" H 8400 4250 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/74LVC8T245PW%2C118-Nexperia-datasheet-11898247.pdf" H 8400 4250 50  0001 C CNN
 	1    8750 2500
 	1    0    0    -1  
 $EndComp
@@ -1335,7 +1335,7 @@ P 7600 1450
 F 0 "C12" H 7715 1496 50  0000 L CNN
 F 1 "4.7uF" H 7715 1405 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 7638 1300 50  0001 C CNN
-F 3 "~" H 7600 1450 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/C0805C475K8PACTU-Kemet-datasheet-5314969.pdf" H 7600 1450 50  0001 C CNN
 	1    7600 1450
 	1    0    0    -1  
 $EndComp
@@ -1372,7 +1372,7 @@ P 10100 1550
 F 0 "J5" H 10150 1050 50  0000 C CNN
 F 1 "Conn_02x08_Odd_Even" H 10050 850 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 10100 1550 50  0001 C CNN
-F 3 "~" H 10100 1550 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=103308&DocType=Customer+Drawing&DocLang=English" H 10100 1550 50  0001 C CNN
 	1    10100 1550
 	-1   0    0    1   
 $EndComp
@@ -1593,7 +1593,7 @@ P 1450 2050
 F 0 "J2" H 1500 3167 50  0000 C CNN
 F 1 "Conn_02x20_Odd_Even" H 1500 3076 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 1450 2050 50  0001 C CNN
-F 3 "~" H 1450 2050 50  0001 C CNN
+F 3 "https://sigma.octopart.com/142027116/technical_drawing/Samtec-EJH-120-01-F-D-SM.pdf" H 1450 2050 50  0001 C CNN
 	1    1450 2050
 	1    0    0    -1  
 $EndComp
