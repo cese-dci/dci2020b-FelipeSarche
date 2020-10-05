@@ -5,12 +5,12 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Level shifter"
-Date "2020-09-26"
-Rev "1"
-Comp "FSarch"
-Comment1 ""
-Comment2 ""
-Comment3 ""
+Date "2020-10-04"
+Rev "2"
+Comp "GOIA"
+Comment1 "Licencia libre "
+Comment2 "Revisor:  Sofía Bertinat"
+Comment3 "Autor: Felipe Sarche"
 Comment4 ""
 $EndDescr
 $Comp
