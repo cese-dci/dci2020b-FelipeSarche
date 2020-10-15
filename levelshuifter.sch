@@ -4,14 +4,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "Level shifter"
+Title "Level shifter (3.3 v to 5v @20Mhz)"
 Date "2020-10-04"
-Rev "2"
+Rev "3"
 Comp "GOIA"
-Comment1 "Licencia libre "
+Comment1 "Bajo licencia Creative Commons Attribution Share - Alike 4.0"
 Comment2 "Revisor:  Sofía Bertinat"
 Comment3 "Autor: Felipe Sarche"
-Comment4 ""
+Comment4 "https://creativecommons.org/licenses/by-sa/4.0/"
 $EndDescr
 $Comp
 L Regulator_Linear:L7805 U5

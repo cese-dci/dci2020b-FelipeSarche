@@ -1,0 +1,20 @@
+Capacitor 0.33uf
+https://circuitmaker.com/Components/Details/C77F6AFF-62B4-11E5-BD00-22000B510297
+Capacitor 4.7uf
+https://circuitmaker.com/Components/Details/F995BD0F-62B1-11E5-BD00-22000B510297
+Regulador L7805
+https://circuitmaker.com/Components/Details/E0734703-23FC-4B0C-8C2F-2F5C67E9AF70
+Regulador LM1117
+https://circuitmaker.com/Components/Details/279EDA95-0152-4A2D-BCD1-756308A527AE
+Capacitor 47uF
+https://circuitmaker.com/Components/Details/6E5F2F84-F4B6-4D42-9700-2F5B97D1EF6B
+Integrador 74lvc8t245
+https://circuitmaker.com/Components/Details/4E3EB762-0453-4129-9EBB-71A907BFAEAD
+Capacitor 10uf
+https://circuitmaker.com/Components/Details/B9B9B3C7-E8EC-4B9E-939B-031C6E7EA1B5
+Capacitor 470uf
+https://circuitmaker.com/Components/Details/A3FDC1AA-0D97-4A0A-B6AB-661DC67D19F4
+Conector idc16
+https://circuitmaker.com/Components/Details/9626DEEA-5E81-44D0-8D10-997E5E067F0B
+Conector idc40
+https://circuitmaker.com/Components/Details/92F7AFEF-902D-4613-8C75-96385D1D1E7D
