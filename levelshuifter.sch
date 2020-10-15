@@ -1794,4 +1794,70 @@ F 3 "~" H 1200 7100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Connection ~ 1200 7100
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5F85C5F8
+P 7750 5250
+F 0 "H1" H 7850 5296 50  0000 L CNN
+F 1 "MountingHole" H 7850 5205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 7750 5250 50  0001 C CNN
+F 3 "~" H 7750 5250 50  0001 C CNN
+	1    7750 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5F877F90
+P 8450 5250
+F 0 "H2" H 8550 5296 50  0000 L CNN
+F 1 "MountingHole" H 8550 5205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 8450 5250 50  0001 C CNN
+F 3 "~" H 8450 5250 50  0001 C CNN
+	1    8450 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5F8909F1
+P 9200 5250
+F 0 "H3" H 9300 5296 50  0000 L CNN
+F 1 "MountingHole" H 9300 5205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 9200 5250 50  0001 C CNN
+F 3 "~" H 9200 5250 50  0001 C CNN
+	1    9200 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5F8A94F8
+P 9900 5250
+F 0 "H4" H 10000 5296 50  0000 L CNN
+F 1 "MountingHole" H 10000 5205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 9900 5250 50  0001 C CNN
+F 3 "~" H 9900 5250 50  0001 C CNN
+	1    9900 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID1
+U 1 1 5F8DFD36
+P 7700 4800
+F 0 "FID1" H 7785 4846 50  0000 L CNN
+F 1 "Fiducial" H 7785 4755 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 7700 4800 50  0001 C CNN
+F 3 "~" H 7700 4800 50  0001 C CNN
+	1    7700 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID2
+U 1 1 5F8E2836
+P 8300 4800
+F 0 "FID2" H 8385 4846 50  0000 L CNN
+F 1 "Fiducial" H 8385 4755 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 8300 4800 50  0001 C CNN
+F 3 "~" H 8300 4800 50  0001 C CNN
+	1    8300 4800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
