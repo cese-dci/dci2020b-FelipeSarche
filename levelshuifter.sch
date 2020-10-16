@@ -1860,4 +1860,12 @@ F 3 "~" H 8300 4800 50  0001 C CNN
 	1    8300 4800
 	1    0    0    -1  
 $EndComp
+Text Notes 1000 3650 0    79   ~ 0
+ENTRADA DE1SoC\n
+Text Notes 6250 850  0    79   ~ 0
+SALIDA MATRICES LED\n
+Text Notes 6200 3350 0    79   ~ 0
+SALIDA MATRICES LED\n
+Text Notes 9550 700  0    79   ~ 0
+SALIDA MATRICES LED\n
 $EndSCHEMATC
