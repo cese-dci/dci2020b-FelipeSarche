@@ -1732,7 +1732,7 @@
   (gr_text "HE-2903-01-08\n\nSERIE:" (at 39 103 90) (layer F.SilkS)
     (effects (font (size 2 2) (thickness 0.15)) (justify left))
   )
-  (gr_text "Fabricante seleccionado: Microcircuitos (Colombia)\nLimitaciones:\nhttps://pcbmicrocircuitos.com/wp-content/uploads/2016/12/medidas-minimas-microcircuitos-1.jpg\nDistancias:\n\ncobre-cobre: 0.203mm\nagujero-agujero:0.5mm\npads-serigraf:0.23mm\n\nAncho:\n\nPista:0.203mm\nVia:0.25mm\nSerigrafía:0.23mm\n\n" (at 102 50) (layer Dwgs.User)
+  (gr_text "Grilla: 1mm/0.01mm\nVias: (0.80/0.40)mm y (1/0.5)mm\nPistas: 0.40mm/1mm\nMargen: 0.25mm\n\nsilkscreen: negro\n\n\n\n\n\n\n\n" (at 102 50) (layer Dwgs.User)
     (effects (font (size 2 2) (thickness 0.15)) (justify left))
   )
 
@@ -2261,7 +2261,7 @@
   (segment (start 70.4075 130.0075) (end 64.6225 130.0075) (width 0.4) (layer F.Cu) (net 78))
   (segment (start 71.92 131.52) (end 70.4075 130.0075) (width 0.4) (layer F.Cu) (net 78))
 
-  (zone (net 2) (net_name GND) (layer F.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 2) (net_name GND) (layer F.Cu) (tstamp 5F9F5F6F) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -3521,7 +3521,7 @@
       )
     )
   )
-  (zone (net 2) (net_name GND) (layer B.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 2) (net_name GND) (layer B.Cu) (tstamp 5F9F5F6C) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
