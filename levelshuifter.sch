@@ -14,7 +14,7 @@ Comment3 "Autor: Felipe Sarche"
 Comment4 "https://creativecommons.org/licenses/by-sa/4.0/"
 $EndDescr
 $Comp
-L Regulator_Linear:L7805 U5
+L levelshuifter-rescue:L7805-Regulator_Linear U5
 U 1 1 5F603929
 P 5350 6750
 F 0 "U5" H 5350 6992 50  0000 C CNN
@@ -25,7 +25,7 @@ F 3 "https://datasheet.octopart.com/L7805ABD2T-TR-STMicroelectronics-datasheet-1
 	1    0    0    -1  
 $EndComp
 $Comp
-L Regulator_Linear:LM1117-3.3 U1
+L levelshuifter-rescue:LM1117-3.3-Regulator_Linear U1
 U 1 1 5F605819
 P 2950 6750
 F 0 "U1" H 2950 6992 50  0000 C CNN
@@ -36,7 +36,7 @@ F 3 "https://datasheet.octopart.com/LM1117MP-3.3-Texas-Instruments-datasheet-207
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C9
+L levelshuifter-rescue:C-Device C9
 U 1 1 5F606FA9
 P 4950 7150
 F 0 "C9" H 5065 7196 50  0000 L CNN
@@ -47,7 +47,7 @@ F 3 "https://datasheet.octopart.com/08053C334KAZ2A-AVX-datasheet-65931687.pdf" H
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C10
+L levelshuifter-rescue:C-Device C10
 U 1 1 5F6084D3
 P 5750 7150
 F 0 "C10" H 5500 7200 50  0000 L CNN
@@ -58,7 +58,7 @@ F 3 "https://datasheet.octopart.com/C0805C475K8PACTU-Kemet-datasheet-5314969.pdf
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C6
+L levelshuifter-rescue:C-Device C6
 U 1 1 5F6099BE
 P 3350 7050
 F 0 "C6" H 3100 7100 50  0000 L CNN
@@ -69,7 +69,7 @@ F 3 "https://datasheet.octopart.com/C0805C475K8PACTU-Kemet-datasheet-5314969.pdf
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP C8
+L levelshuifter-rescue:CP-Device C8
 U 1 1 5F60A51F
 P 4600 7150
 F 0 "C8" H 4300 7200 50  0000 L CNN
@@ -80,7 +80,7 @@ F 3 "https://datasheet.octopart.com/EEU-FC1V471-Panasonic-datasheet-5313828.pdf"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP C11
+L levelshuifter-rescue:CP-Device C11
 U 1 1 5F60B1ED
 P 6100 7150
 F 0 "C11" H 6218 7196 50  0000 L CNN
@@ -91,7 +91,7 @@ F 3 "https://datasheet.octopart.com/UVR1J470MED-Nichicon-datasheet-8362721.pdf" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP C7
+L levelshuifter-rescue:CP-Device C7
 U 1 1 5F60CAAD
 P 3700 7050
 F 0 "C7" H 3818 7096 50  0000 L CNN
@@ -102,7 +102,7 @@ F 3 "https://datasheet.octopart.com/ECE-A1HKA100-Panasonic-datasheet-13266333.pd
 	1    0    0    -1  
 $EndComp
 $Comp
-L levelshuifter-rescue:74LVC8T245PW-74LVC8T245PW U3
+L levelshuifter-rescue:74LVC8T245PW-74LVC8T245PW-levelshuifter-rescue U3
 U 1 1 5F61CD77
 P 3950 2300
 F 0 "U3" H 3500 4050 50  0000 C CNN
@@ -148,7 +148,7 @@ Wire Wire Line
 	4600 7400 4600 7300
 Connection ~ 4950 7400
 $Comp
-L Device:CP C1
+L levelshuifter-rescue:CP-Device C1
 U 1 1 5F60BBFB
 P 2200 7050
 F 0 "C1" H 2000 7150 50  0000 L CNN
@@ -159,7 +159,7 @@ F 3 "https://datasheet.octopart.com/ECE-A1HKA100-Panasonic-datasheet-13266333.pd
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C2
+L levelshuifter-rescue:C-Device C2
 U 1 1 5F608CBF
 P 2550 7050
 F 0 "C2" H 2665 7096 50  0000 L CNN
@@ -200,7 +200,7 @@ Connection ~ 2550 7300
 Wire Wire Line
 	2550 7300 2950 7300
 $Comp
-L power:GND #PWR0101
+L levelshuifter-rescue:GND-power #PWR0101
 U 1 1 5F65916C
 P 2950 7300
 F 0 "#PWR0101" H 2950 7050 50  0001 C CNN
@@ -216,7 +216,7 @@ Wire Wire Line
 Wire Wire Line
 	2950 7050 2950 7300
 $Comp
-L power:GND #PWR0102
+L levelshuifter-rescue:GND-power #PWR0102
 U 1 1 5F65ABBF
 P 5350 7400
 F 0 "#PWR0102" H 5350 7150 50  0001 C CNN
@@ -229,7 +229,7 @@ $EndComp
 Wire Wire Line
 	1200 6900 1200 7000
 $Comp
-L Connector:Screw_Terminal_01x02 J1
+L levelshuifter-rescue:Screw_Terminal_01x02-Connector J1
 U 1 1 5F62AC57
 P 1000 7000
 F 0 "J1" H 1000 7200 50  0000 C CNN
@@ -240,7 +240,7 @@ F 3 "~" H 1000 7000 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR0103
+L levelshuifter-rescue:+12V-power #PWR0103
 U 1 1 5F65F4C5
 P 1200 6900
 F 0 "#PWR0103" H 1200 6750 50  0001 C CNN
@@ -251,7 +251,7 @@ F 3 "" H 1200 6900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR0104
+L levelshuifter-rescue:+12V-power #PWR0104
 U 1 1 5F65FDAB
 P 1950 6750
 F 0 "#PWR0104" H 1950 6600 50  0001 C CNN
@@ -263,7 +263,7 @@ F 3 "" H 1950 6750 50  0001 C CNN
 $EndComp
 Connection ~ 2200 6750
 $Comp
-L power:+12V #PWR0105
+L levelshuifter-rescue:+12V-power #PWR0105
 U 1 1 5F66165D
 P 4350 6750
 F 0 "#PWR0105" H 4350 6600 50  0001 C CNN
@@ -277,7 +277,7 @@ Wire Wire Line
 	4350 6750 4600 6750
 Connection ~ 4600 6750
 $Comp
-L power:+3.3V #PWR0107
+L levelshuifter-rescue:+3.3V-power #PWR0107
 U 1 1 5F666C76
 P 3900 6750
 F 0 "#PWR0107" H 3900 6600 50  0001 C CNN
@@ -288,7 +288,7 @@ F 3 "" H 3900 6750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0108
+L levelshuifter-rescue:+5V-power #PWR0108
 U 1 1 5F667F4A
 P 6300 6750
 F 0 "#PWR0108" H 6300 6600 50  0001 C CNN
@@ -337,7 +337,7 @@ Wire Wire Line
 Wire Wire Line
 	4450 2000 4700 2000
 $Comp
-L power:+3.3V #PWR0109
+L levelshuifter-rescue:+3.3V-power #PWR0109
 U 1 1 5F6CC03E
 P 3250 1900
 F 0 "#PWR0109" H 3250 1750 50  0001 C CNN
@@ -348,7 +348,7 @@ F 3 "" H 3250 1900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+3.3V #PWR0110
+L levelshuifter-rescue:+3.3V-power #PWR0110
 U 1 1 5F6CD342
 P 3250 750
 F 0 "#PWR0110" H 3250 600 50  0001 C CNN
@@ -359,7 +359,7 @@ F 3 "" H 3250 750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0111
+L levelshuifter-rescue:GND-power #PWR0111
 U 1 1 5F6CE2A6
 P 3250 2000
 F 0 "#PWR0111" H 3250 1750 50  0001 C CNN
@@ -370,7 +370,7 @@ F 3 "" H 3250 2000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0112
+L levelshuifter-rescue:GND-power #PWR0112
 U 1 1 5F6CF829
 P 4700 1800
 F 0 "#PWR0112" H 4700 1550 50  0001 C CNN
@@ -381,7 +381,7 @@ F 3 "" H 4700 1800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0113
+L levelshuifter-rescue:GND-power #PWR0113
 U 1 1 5F6D0268
 P 4700 1900
 F 0 "#PWR0113" H 4700 1650 50  0001 C CNN
@@ -392,7 +392,7 @@ F 3 "" H 4700 1900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0114
+L levelshuifter-rescue:GND-power #PWR0114
 U 1 1 5F6D0DD0
 P 4700 2000
 F 0 "#PWR0114" H 4700 1750 50  0001 C CNN
@@ -403,7 +403,7 @@ F 3 "" H 4700 2000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+5V #PWR0115
+L levelshuifter-rescue:+5V-power #PWR0115
 U 1 1 5F6D17AF
 P 4700 750
 F 0 "#PWR0115" H 4700 600 50  0001 C CNN
@@ -414,7 +414,7 @@ F 3 "" H 4700 750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+5V #PWR0116
+L levelshuifter-rescue:+5V-power #PWR0116
 U 1 1 5F6D2A4C
 P 4700 850
 F 0 "#PWR0116" H 4700 700 50  0001 C CNN
@@ -441,7 +441,7 @@ A1_7
 Text Label 3250 1650 0    50   ~ 0
 A1_8
 $Comp
-L levelshuifter-rescue:74LVC8T245PW-74LVC8T245PW U4
+L levelshuifter-rescue:74LVC8T245PW-74LVC8T245PW-levelshuifter-rescue U4
 U 1 1 5F602954
 P 3950 4200
 F 0 "U4" H 4042 6115 50  0000 C CNN
@@ -484,7 +484,7 @@ Wire Wire Line
 Wire Wire Line
 	4450 3900 4700 3900
 $Comp
-L power:+3.3V #PWR0117
+L levelshuifter-rescue:+3.3V-power #PWR0117
 U 1 1 5F602976
 P 3250 3800
 F 0 "#PWR0117" H 3250 3650 50  0001 C CNN
@@ -495,7 +495,7 @@ F 3 "" H 3250 3800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+3.3V #PWR0118
+L levelshuifter-rescue:+3.3V-power #PWR0118
 U 1 1 5F602980
 P 3250 2650
 F 0 "#PWR0118" H 3250 2500 50  0001 C CNN
@@ -506,7 +506,7 @@ F 3 "" H 3250 2650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0119
+L levelshuifter-rescue:GND-power #PWR0119
 U 1 1 5F60298A
 P 3250 3900
 F 0 "#PWR0119" H 3250 3650 50  0001 C CNN
@@ -517,7 +517,7 @@ F 3 "" H 3250 3900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0120
+L levelshuifter-rescue:GND-power #PWR0120
 U 1 1 5F602994
 P 4700 3700
 F 0 "#PWR0120" H 4700 3450 50  0001 C CNN
@@ -528,7 +528,7 @@ F 3 "" H 4700 3700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0121
+L levelshuifter-rescue:GND-power #PWR0121
 U 1 1 5F60299E
 P 4700 3800
 F 0 "#PWR0121" H 4700 3550 50  0001 C CNN
@@ -539,7 +539,7 @@ F 3 "" H 4700 3800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0122
+L levelshuifter-rescue:GND-power #PWR0122
 U 1 1 5F6029A8
 P 4700 3900
 F 0 "#PWR0122" H 4700 3650 50  0001 C CNN
@@ -550,7 +550,7 @@ F 3 "" H 4700 3900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+5V #PWR0123
+L levelshuifter-rescue:+5V-power #PWR0123
 U 1 1 5F6029B2
 P 4700 2650
 F 0 "#PWR0123" H 4700 2500 50  0001 C CNN
@@ -609,7 +609,7 @@ Wire Wire Line
 Wire Wire Line
 	4400 5800 4650 5800
 $Comp
-L power:+3.3V #PWR0125
+L levelshuifter-rescue:+3.3V-power #PWR0125
 U 1 1 5F61A050
 P 3200 5700
 F 0 "#PWR0125" H 3200 5550 50  0001 C CNN
@@ -620,7 +620,7 @@ F 3 "" H 3200 5700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+3.3V #PWR0126
+L levelshuifter-rescue:+3.3V-power #PWR0126
 U 1 1 5F61A05A
 P 3200 4550
 F 0 "#PWR0126" H 3200 4400 50  0001 C CNN
@@ -631,7 +631,7 @@ F 3 "" H 3200 4550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0127
+L levelshuifter-rescue:GND-power #PWR0127
 U 1 1 5F61A064
 P 3200 5800
 F 0 "#PWR0127" H 3200 5550 50  0001 C CNN
@@ -642,7 +642,7 @@ F 3 "" H 3200 5800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0128
+L levelshuifter-rescue:GND-power #PWR0128
 U 1 1 5F61A06E
 P 4650 5600
 F 0 "#PWR0128" H 4650 5350 50  0001 C CNN
@@ -653,7 +653,7 @@ F 3 "" H 4650 5600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0129
+L levelshuifter-rescue:GND-power #PWR0129
 U 1 1 5F61A078
 P 4650 5700
 F 0 "#PWR0129" H 4650 5450 50  0001 C CNN
@@ -664,7 +664,7 @@ F 3 "" H 4650 5700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0130
+L levelshuifter-rescue:GND-power #PWR0130
 U 1 1 5F61A082
 P 4650 5800
 F 0 "#PWR0130" H 4650 5550 50  0001 C CNN
@@ -675,7 +675,7 @@ F 3 "" H 4650 5800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+5V #PWR0131
+L levelshuifter-rescue:+5V-power #PWR0131
 U 1 1 5F61A08C
 P 4650 4550
 F 0 "#PWR0131" H 4650 4400 50  0001 C CNN
@@ -686,7 +686,7 @@ F 3 "" H 4650 4550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+5V #PWR0132
+L levelshuifter-rescue:+5V-power #PWR0132
 U 1 1 5F61A096
 P 4650 4650
 F 0 "#PWR0132" H 4650 4500 50  0001 C CNN
@@ -713,7 +713,7 @@ A3_7
 Text Label 3200 5450 0    50   ~ 0
 A3_8
 $Comp
-L Device:C C5
+L levelshuifter-rescue:C-Device C5
 U 1 1 5F62C653
 P 2800 3200
 F 0 "C5" H 2915 3246 50  0000 L CNN
@@ -724,7 +724,7 @@ F 3 "https://datasheet.octopart.com/C0805C475K8PACTU-Kemet-datasheet-5314969.pdf
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C3
+L levelshuifter-rescue:C-Device C3
 U 1 1 5F63374B
 P 2750 5050
 F 0 "C3" H 2865 5096 50  0000 L CNN
@@ -735,7 +735,7 @@ F 3 "https://datasheet.octopart.com/C0805C475K8PACTU-Kemet-datasheet-5314969.pdf
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0124
+L levelshuifter-rescue:+3.3V-power #PWR0124
 U 1 1 5F65EA5B
 P 2800 2900
 F 0 "#PWR0124" H 2800 2750 50  0001 C CNN
@@ -746,7 +746,7 @@ F 3 "" H 2800 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0133
+L levelshuifter-rescue:+3.3V-power #PWR0133
 U 1 1 5F65F87E
 P 2750 4800
 F 0 "#PWR0133" H 2750 4650 50  0001 C CNN
@@ -757,7 +757,7 @@ F 3 "" H 2750 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0134
+L levelshuifter-rescue:GND-power #PWR0134
 U 1 1 5F661746
 P 2800 3500
 F 0 "#PWR0134" H 2800 3250 50  0001 C CNN
@@ -768,7 +768,7 @@ F 3 "" H 2800 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0135
+L levelshuifter-rescue:GND-power #PWR0135
 U 1 1 5F6621FD
 P 2750 5350
 F 0 "#PWR0135" H 2750 5100 50  0001 C CNN
@@ -779,7 +779,7 @@ F 3 "" H 2750 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x08_Odd_Even J3
+L levelshuifter-rescue:Conn_02x08_Odd_Even-Connector_Generic J3
 U 1 1 5F670F36
 P 5300 1350
 F 0 "J3" H 5350 725 50  0000 C CNN
@@ -798,7 +798,7 @@ Wire Wire Line
 Wire Wire Line
 	5500 1550 5650 1550
 $Comp
-L power:GND #PWR0136
+L levelshuifter-rescue:GND-power #PWR0136
 U 1 1 5F6F300E
 P 5650 950
 F 0 "#PWR0136" H 5650 700 50  0001 C CNN
@@ -809,7 +809,7 @@ F 3 "" H 5650 950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0137
+L levelshuifter-rescue:GND-power #PWR0137
 U 1 1 5F6F496D
 P 5650 1150
 F 0 "#PWR0137" H 5650 900 50  0001 C CNN
@@ -820,7 +820,7 @@ F 3 "" H 5650 1150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0138
+L levelshuifter-rescue:GND-power #PWR0138
 U 1 1 5F6F53EA
 P 5650 1350
 F 0 "#PWR0138" H 5650 1100 50  0001 C CNN
@@ -831,7 +831,7 @@ F 3 "" H 5650 1350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0139
+L levelshuifter-rescue:GND-power #PWR0139
 U 1 1 5F6F6508
 P 5650 1550
 F 0 "#PWR0139" H 5650 1300 50  0001 C CNN
@@ -874,7 +874,7 @@ Wire Wire Line
 Wire Wire Line
 	2800 1200 2800 1050
 $Comp
-L power:GND #PWR0140
+L levelshuifter-rescue:GND-power #PWR0140
 U 1 1 5F66096D
 P 2800 1650
 F 0 "#PWR0140" H 2800 1400 50  0001 C CNN
@@ -885,7 +885,7 @@ F 3 "" H 2800 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0141
+L levelshuifter-rescue:+3.3V-power #PWR0141
 U 1 1 5F65DAC1
 P 2800 1050
 F 0 "#PWR0141" H 2800 900 50  0001 C CNN
@@ -896,7 +896,7 @@ F 3 "" H 2800 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C4
+L levelshuifter-rescue:C-Device C4
 U 1 1 5F62770F
 P 2800 1350
 F 0 "C4" H 2915 1396 50  0000 L CNN
@@ -925,7 +925,7 @@ Wire Wire Line
 Wire Wire Line
 	6100 1250 6100 3050
 $Comp
-L Connector_Generic:Conn_02x08_Odd_Even J4
+L levelshuifter-rescue:Conn_02x08_Odd_Even-Connector_Generic J4
 U 1 1 5F931D58
 P 5800 4150
 F 0 "J4" H 5850 3650 50  0000 C CNN
@@ -936,7 +936,7 @@ F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&
 	-1   0    0    1   
 $EndComp
 $Comp
-L levelshuifter-rescue:74LVC8T245PW-74LVC8T245PW U7
+L levelshuifter-rescue:74LVC8T245PW-74LVC8T245PW-levelshuifter-rescue U7
 U 1 1 5F9391D7
 P 8800 4550
 F 0 "U7" H 8892 6465 50  0000 C CNN
@@ -971,7 +971,7 @@ Wire Wire Line
 Wire Wire Line
 	9300 4250 9550 4250
 $Comp
-L power:+3.3V #PWR0142
+L levelshuifter-rescue:+3.3V-power #PWR0142
 U 1 1 5F9391F9
 P 8100 4150
 F 0 "#PWR0142" H 8100 4000 50  0001 C CNN
@@ -982,7 +982,7 @@ F 3 "" H 8100 4150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+3.3V #PWR0143
+L levelshuifter-rescue:+3.3V-power #PWR0143
 U 1 1 5F939203
 P 8100 3000
 F 0 "#PWR0143" H 8100 2850 50  0001 C CNN
@@ -993,7 +993,7 @@ F 3 "" H 8100 3000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0144
+L levelshuifter-rescue:GND-power #PWR0144
 U 1 1 5F93920D
 P 8100 4250
 F 0 "#PWR0144" H 8100 4000 50  0001 C CNN
@@ -1004,7 +1004,7 @@ F 3 "" H 8100 4250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0145
+L levelshuifter-rescue:GND-power #PWR0145
 U 1 1 5F939217
 P 9550 4050
 F 0 "#PWR0145" H 9550 3800 50  0001 C CNN
@@ -1015,7 +1015,7 @@ F 3 "" H 9550 4050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0146
+L levelshuifter-rescue:GND-power #PWR0146
 U 1 1 5F939221
 P 9550 4150
 F 0 "#PWR0146" H 9550 3900 50  0001 C CNN
@@ -1026,7 +1026,7 @@ F 3 "" H 9550 4150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0147
+L levelshuifter-rescue:GND-power #PWR0147
 U 1 1 5F93922B
 P 9550 4250
 F 0 "#PWR0147" H 9550 4000 50  0001 C CNN
@@ -1037,7 +1037,7 @@ F 3 "" H 9550 4250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+5V #PWR0148
+L levelshuifter-rescue:+5V-power #PWR0148
 U 1 1 5F939235
 P 9550 3000
 F 0 "#PWR0148" H 9550 2850 50  0001 C CNN
@@ -1056,7 +1056,7 @@ A5_7
 Text Label 8100 3900 0    50   ~ 0
 A5_8
 $Comp
-L Device:C C13
+L levelshuifter-rescue:C-Device C13
 U 1 1 5F939259
 P 7650 3500
 F 0 "C13" H 7765 3546 50  0000 L CNN
@@ -1067,7 +1067,7 @@ F 3 "https://datasheet.octopart.com/C0805C475K8PACTU-Kemet-datasheet-5314969.pdf
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0149
+L levelshuifter-rescue:+3.3V-power #PWR0149
 U 1 1 5F939263
 P 7650 3250
 F 0 "#PWR0149" H 7650 3100 50  0001 C CNN
@@ -1078,7 +1078,7 @@ F 3 "" H 7650 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0150
+L levelshuifter-rescue:GND-power #PWR0150
 U 1 1 5F93926D
 P 7650 3800
 F 0 "#PWR0150" H 7650 3550 50  0001 C CNN
@@ -1101,7 +1101,7 @@ Wire Wire Line
 Wire Wire Line
 	6000 3750 6200 3750
 $Comp
-L power:GND #PWR0151
+L levelshuifter-rescue:GND-power #PWR0151
 U 1 1 5F9A4FCB
 P 6200 3750
 F 0 "#PWR0151" H 6200 3500 50  0001 C CNN
@@ -1112,7 +1112,7 @@ F 3 "" H 6200 3750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0152
+L levelshuifter-rescue:GND-power #PWR0152
 U 1 1 5F9A5DF0
 P 6200 3950
 F 0 "#PWR0152" H 6200 3700 50  0001 C CNN
@@ -1123,7 +1123,7 @@ F 3 "" H 6200 3950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0153
+L levelshuifter-rescue:GND-power #PWR0153
 U 1 1 5F9A6BFA
 P 6200 4150
 F 0 "#PWR0153" H 6200 3900 50  0001 C CNN
@@ -1134,7 +1134,7 @@ F 3 "" H 6200 4150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0154
+L levelshuifter-rescue:GND-power #PWR0154
 U 1 1 5F9A7BBD
 P 6200 4350
 F 0 "#PWR0154" H 6200 4100 50  0001 C CNN
@@ -1201,7 +1201,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 3950 5500 3950
 $Comp
-L levelshuifter-rescue:74LVC8T245PW-74LVC8T245PW U2
+L levelshuifter-rescue:74LVC8T245PW-74LVC8T245PW-levelshuifter-rescue U2
 U 1 1 5F61A02E
 P 3900 6100
 F 0 "U2" H 3992 8015 50  0000 C CNN
@@ -1230,7 +1230,7 @@ Wire Wire Line
 Wire Wire Line
 	4400 5450 6950 5450
 $Comp
-L levelshuifter-rescue:74LVC8T245PW-74LVC8T245PW U6
+L levelshuifter-rescue:74LVC8T245PW-74LVC8T245PW-levelshuifter-rescue U6
 U 1 1 5FB327BD
 P 8750 2500
 F 0 "U6" H 8842 4415 50  0000 C CNN
@@ -1269,7 +1269,7 @@ Wire Wire Line
 Wire Wire Line
 	9250 2200 9500 2200
 $Comp
-L power:+3.3V #PWR0155
+L levelshuifter-rescue:+3.3V-power #PWR0155
 U 1 1 5FB327DF
 P 8050 2100
 F 0 "#PWR0155" H 8050 1950 50  0001 C CNN
@@ -1280,7 +1280,7 @@ F 3 "" H 8050 2100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+3.3V #PWR0156
+L levelshuifter-rescue:+3.3V-power #PWR0156
 U 1 1 5FB327E9
 P 8050 950
 F 0 "#PWR0156" H 8050 800 50  0001 C CNN
@@ -1291,7 +1291,7 @@ F 3 "" H 8050 950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0157
+L levelshuifter-rescue:GND-power #PWR0157
 U 1 1 5FB327F3
 P 8050 2200
 F 0 "#PWR0157" H 8050 1950 50  0001 C CNN
@@ -1302,7 +1302,7 @@ F 3 "" H 8050 2200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+5V #PWR0161
+L levelshuifter-rescue:+5V-power #PWR0161
 U 1 1 5FB3281B
 P 9500 950
 F 0 "#PWR0161" H 9500 800 50  0001 C CNN
@@ -1329,7 +1329,7 @@ A4_7
 Text Label 8050 1850 0    50   ~ 0
 A4_8
 $Comp
-L Device:C C12
+L levelshuifter-rescue:C-Device C12
 U 1 1 5FB3283F
 P 7600 1450
 F 0 "C12" H 7715 1496 50  0000 L CNN
@@ -1340,7 +1340,7 @@ F 3 "https://datasheet.octopart.com/C0805C475K8PACTU-Kemet-datasheet-5314969.pdf
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0162
+L levelshuifter-rescue:+3.3V-power #PWR0162
 U 1 1 5FB32849
 P 7600 1200
 F 0 "#PWR0162" H 7600 1050 50  0001 C CNN
@@ -1351,7 +1351,7 @@ F 3 "" H 7600 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0163
+L levelshuifter-rescue:GND-power #PWR0163
 U 1 1 5FB32853
 P 7600 1750
 F 0 "#PWR0163" H 7600 1500 50  0001 C CNN
@@ -1366,7 +1366,7 @@ Wire Wire Line
 Wire Wire Line
 	7600 1600 7600 1750
 $Comp
-L Connector_Generic:Conn_02x08_Odd_Even J5
+L levelshuifter-rescue:Conn_02x08_Odd_Even-Connector_Generic J5
 U 1 1 5FB49977
 P 10100 1550
 F 0 "J5" H 10150 1050 50  0000 C CNN
@@ -1377,7 +1377,7 @@ F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+5V #PWR0164
+L levelshuifter-rescue:+5V-power #PWR0164
 U 1 1 5FB32825
 P 9500 1050
 F 0 "#PWR0164" H 9500 900 50  0001 C CNN
@@ -1412,7 +1412,7 @@ Wire Wire Line
 Wire Wire Line
 	10300 1750 10450 1750
 $Comp
-L power:GND #PWR0165
+L levelshuifter-rescue:GND-power #PWR0165
 U 1 1 5FC62219
 P 10450 1150
 F 0 "#PWR0165" H 10450 900 50  0001 C CNN
@@ -1423,7 +1423,7 @@ F 3 "" H 10450 1150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0166
+L levelshuifter-rescue:GND-power #PWR0166
 U 1 1 5FC6304B
 P 10450 1350
 F 0 "#PWR0166" H 10450 1100 50  0001 C CNN
@@ -1434,7 +1434,7 @@ F 3 "" H 10450 1350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0167
+L levelshuifter-rescue:GND-power #PWR0167
 U 1 1 5FC63C19
 P 10450 1550
 F 0 "#PWR0167" H 10450 1300 50  0001 C CNN
@@ -1445,7 +1445,7 @@ F 3 "" H 10450 1550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0168
+L levelshuifter-rescue:GND-power #PWR0168
 U 1 1 5FC64815
 P 10450 1750
 F 0 "#PWR0168" H 10450 1500 50  0001 C CNN
@@ -1576,7 +1576,7 @@ A2_2
 Text Label 2000 2250 0    50   ~ 0
 A2_3
 $Comp
-L power:GND #PWR0169
+L levelshuifter-rescue:GND-power #PWR0169
 U 1 1 6056C4B1
 P 2200 1650
 F 0 "#PWR0169" H 2200 1400 50  0001 C CNN
@@ -1587,7 +1587,7 @@ F 3 "" H 2200 1650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x20_Odd_Even J2
+L levelshuifter-rescue:Conn_02x20_Odd_Even-Connector_Generic J2
 U 1 1 605AE24C
 P 1450 2050
 F 0 "J2" H 1500 3167 50  0000 C CNN
@@ -1604,7 +1604,7 @@ A2_5
 Wire Wire Line
 	1750 2550 2200 2550
 $Comp
-L power:GND #PWR0170
+L levelshuifter-rescue:GND-power #PWR0170
 U 1 1 605E2F2A
 P 2200 2550
 F 0 "#PWR0170" H 2200 2300 50  0001 C CNN
@@ -1679,7 +1679,7 @@ Wire Wire Line
 Wire Wire Line
 	9300 3500 9550 3500
 $Comp
-L power:+5V #PWR0171
+L levelshuifter-rescue:+5V-power #PWR0171
 U 1 1 60716292
 P 9550 3100
 F 0 "#PWR0171" H 9550 2950 50  0001 C CNN
@@ -1698,7 +1698,7 @@ NoConn ~ 8100 3400
 NoConn ~ 8100 3300
 NoConn ~ 8100 3200
 $Comp
-L power:+5V #PWR0172
+L levelshuifter-rescue:+5V-power #PWR0172
 U 1 1 607DB497
 P 4700 2750
 F 0 "#PWR0172" H 4700 2600 50  0001 C CNN
@@ -1711,7 +1711,7 @@ $EndComp
 Wire Wire Line
 	9250 2100 9600 2100
 $Comp
-L power:GND #PWR0158
+L levelshuifter-rescue:GND-power #PWR0158
 U 1 1 6080DDC8
 P 9500 2000
 F 0 "#PWR0158" H 9500 1750 50  0001 C CNN
@@ -1722,7 +1722,7 @@ F 3 "" H 9500 2000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0159
+L levelshuifter-rescue:GND-power #PWR0159
 U 1 1 6080EEF4
 P 9600 2100
 F 0 "#PWR0159" H 9600 1850 50  0001 C CNN
@@ -1733,7 +1733,7 @@ F 3 "" H 9600 2100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0160
+L levelshuifter-rescue:GND-power #PWR0160
 U 1 1 6080FF85
 P 9500 2200
 F 0 "#PWR0160" H 9500 1950 50  0001 C CNN
@@ -1748,7 +1748,7 @@ Wire Wire Line
 Wire Wire Line
 	2200 1650 1750 1650
 $Comp
-L power:GND #PWR0106
+L levelshuifter-rescue:GND-power #PWR0106
 U 1 1 608C1D8A
 P 1200 7250
 F 0 "#PWR0106" H 1200 7000 50  0001 C CNN
@@ -1771,7 +1771,7 @@ Wire Wire Line
 Wire Wire Line
 	2200 6750 2550 6750
 $Comp
-L power:PWR_FLAG #FLG0101
+L levelshuifter-rescue:PWR_FLAG-power #FLG0101
 U 1 1 60947EE9
 P 1200 7000
 F 0 "#FLG0101" H 1200 7075 50  0001 C CNN
@@ -1783,7 +1783,7 @@ F 3 "~" H 1200 7000 50  0001 C CNN
 $EndComp
 Connection ~ 1200 7000
 $Comp
-L power:PWR_FLAG #FLG0102
+L levelshuifter-rescue:PWR_FLAG-power #FLG0102
 U 1 1 60948F7D
 P 1200 7100
 F 0 "#FLG0102" H 1200 7175 50  0001 C CNN
@@ -1795,7 +1795,7 @@ F 3 "~" H 1200 7100 50  0001 C CNN
 $EndComp
 Connection ~ 1200 7100
 $Comp
-L Mechanical:MountingHole H1
+L levelshuifter-rescue:MountingHole-Mechanical H1
 U 1 1 5F85C5F8
 P 7750 5250
 F 0 "H1" H 7850 5296 50  0000 L CNN
@@ -1806,7 +1806,7 @@ F 3 "~" H 7750 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H2
+L levelshuifter-rescue:MountingHole-Mechanical H2
 U 1 1 5F877F90
 P 8450 5250
 F 0 "H2" H 8550 5296 50  0000 L CNN
@@ -1817,7 +1817,7 @@ F 3 "~" H 8450 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H3
+L levelshuifter-rescue:MountingHole-Mechanical H3
 U 1 1 5F8909F1
 P 9200 5250
 F 0 "H3" H 9300 5296 50  0000 L CNN
@@ -1828,7 +1828,7 @@ F 3 "~" H 9200 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H4
+L levelshuifter-rescue:MountingHole-Mechanical H4
 U 1 1 5F8A94F8
 P 9900 5250
 F 0 "H4" H 10000 5296 50  0000 L CNN
@@ -1839,7 +1839,7 @@ F 3 "~" H 9900 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Fiducial FID1
+L levelshuifter-rescue:Fiducial-Mechanical FID1
 U 1 1 5F8DFD36
 P 7700 4800
 F 0 "FID1" H 7785 4846 50  0000 L CNN
@@ -1850,7 +1850,7 @@ F 3 "~" H 7700 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Fiducial FID2
+L levelshuifter-rescue:Fiducial-Mechanical FID2
 U 1 1 5F8E2836
 P 8300 4800
 F 0 "FID2" H 8385 4846 50  0000 L CNN
